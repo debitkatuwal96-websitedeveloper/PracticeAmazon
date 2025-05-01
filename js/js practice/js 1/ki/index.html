@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daily Routine for Mastering CSS & JavaScript</title>
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 1.6;
+        color: #333;
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f9f9f9;
+      }
+
+      h1 {
+        color: #2c3e50;
+        text-align: center;
+        margin-bottom: 30px;
+        border-bottom: 2px solid #3498db;
+        padding-bottom: 10px;
+      }
+
+      h2 {
+        color: #3498db;
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+      }
+
+      h2 span {
+        margin-right: 10px;
+        font-size: 1.5em;
+      }
+
+      .routine-section {
+        background-color: white;
+        border-radius: 8px;
+        padding: 20px;
+        margin-bottom: 30px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 15px 0;
+      }
+
+      th,
+      td {
+        padding: 12px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+      }
+
+      th {
+        background-color: #3498db;
+        color: white;
+      }
+
+      tr:hover {
+        background-color: #f5f5f5;
+      }
+
+      .example-box {
+        background-color: #e8f4fc;
+        border-left: 4px solid #3498db;
+        padding: 15px;
+        margin: 15px 0;
+        border-radius: 0 4px 4px 0;
+      }
+
+      .example-box h3 {
+        margin-top: 0;
+        color: #2980b9;
+      }
+
+      ul {
+        padding-left: 20px;
+      }
+
+      li {
+        margin-bottom: 8px;
+      }
+
+      .weekly-plan {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+      }
+
+      .day-card {
+        background-color: white;
+        border-radius: 8px;
+        padding: 15px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+
+      .day-card h3 {
+        color: #3498db;
+        margin-top: 0;
+        border-bottom: 1px solid #eee;
+        padding-bottom: 8px;
+      }
+
+      @media (max-width: 768px) {
+        .weekly-plan {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>📅 Daily Routine for Mastering CSS & JavaScript</h1>
+    <p style="text-align: center; font-style: italic">
+      (Adjust timings based on your schedule)
+    </p>
+
+    <div class="routine-section">
+      <h2><span>🌅</span> Morning (1-2 Hours) - Theory & Concepts</h2>
+      <table>
+        <tr>
+          <th>Time</th>
+          <th>Activity</th>
+          <th>Focus Area</th>
+        </tr>
+        <tr>
+          <td>6:00 - 6:30 AM</td>
+          <td>Read Documentation / Articles (MDN, CSS-Tricks, Dev.to)</td>
+          <td>CSS/JS Concepts</td>
+        </tr>
+        <tr>
+          <td>6:30 - 7:00 AM</td>
+          <td>Watch a Tutorial (YouTube, Udemy)</td>
+          <td>Flexbox/Grid or JS Fundamentals</td>
+        </tr>
+        <tr>
+          <td>7:00 - 7:30 AM</td>
+          <td>Code Along (Practice what you learned)</td>
+          <td>Reinforce Concepts</td>
+        </tr>
+      </table>
+
+      <div class="example-box">
+        <h3>📌 Example Tasks:</h3>
+        <ul>
+          <li><strong>Day 1:</strong> CSS Flexbox (Build a navbar)</li>
+          <li><strong>Day 2:</strong> JS Arrays (Manipulate data)</li>
+          <li><strong>Day 3:</strong> CSS Grid (Create a layout)</li>
+          <li><strong>Day 4:</strong> JS DOM (Interactive button)</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="routine-section">
+      <h2><span>🏙</span> Daytime (1 Hour) - Mini Projects</h2>
+      <table>
+        <tr>
+          <th>Time</th>
+          <th>Activity</th>
+          <th>Focus Area</th>
+        </tr>
+        <tr>
+          <td>12:00 - 1:00 PM</td>
+          <td>Build a Small Project (HTML + CSS + JS)</td>
+          <td>Apply Morning Learnings</td>
+        </tr>
+      </table>
+
+      <div class="example-box">
+        <h3>📌 Project Ideas (Weekly Plan):</h3>
+        <ul>
+          <li><strong>Week 1:</strong> To-Do List (LocalStorage)</li>
+          <li><strong>Week 2:</strong> Weather App (API Fetch)</li>
+          <li><strong>Week 3:</strong> Animated Login Form</li>
+          <li><strong>Week 4:</strong> Quiz Game</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="routine-section">
+      <h2><span>🌙</span> Evening (1-2 Hours) - Deep Dive & Debugging</h2>
+      <table>
+        <tr>
+          <th>Time</th>
+          <th>Activity</th>
+          <th>Focus Area</th>
+        </tr>
+        <tr>
+          <td>8:00 - 9:00 PM</td>
+          <td>Work on a Bigger Project</td>
+          <td>Full Website / Web App</td>
+        </tr>
+        <tr>
+          <td>9:00 - 9:30 PM</td>
+          <td>Debug & Optimize Code</td>
+          <td>Chrome DevTools</td>
+        </tr>
+      </table>
+
+      <div class="example-box">
+        <h3>📌 Big Project Examples:</h3>
+        <ul>
+          <li>E-commerce Product Page (CSS Grid + JS Cart)</li>
+          <li>Social Media Dashboard (Fetch API + Dynamic UI)</li>
+          <li>Portfolio Website (Responsive + Animations)</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="routine-section">
+      <h2><span>📌</span> Weekly Breakdown</h2>
+      <div class="weekly-plan">
+        <div class="day-card">
+          <h3>Monday - Wednesday (Learn & Practice)</h3>
+          <ul>
+            <li><strong>CSS:</strong> Flexbox, Grid, Animations</li>
+            <li><strong>JS:</strong> Variables, Functions, DOM</li>
+          </ul>
+        </div>
+
+        <div class="day-card">
+          <h3>Thursday - Friday (Projects)</h3>
+          <ul>
+            <li>Build small apps (To-Do List, Calculator)</li>
+            <li>Use APIs (Fetch weather data)</li>
+          </ul>
+        </div>
+
+        <div class="day-card">
+          <h3>Saturday (Review & Debug)</h3>
+          <ul>
+            <li>Refactor old code</li>
+            <li>Solve coding challenges (LeetCode Easy)</li>
+          </ul>
+        </div>
+
+        <div class="day-card">
+          <h3>Sunday (Big Project Day)</h3>
+          <ul>
+            <li>Work on a full website (Portfolio, Blog)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // Simple JavaScript to make the page more interactive
+      document.addEventListener("DOMContentLoaded", function () {
+        // Add hover effect to day cards
+        const cards = document.querySelectorAll(".day-card");
+        cards.forEach((card) => {
+          card.addEventListener("mouseenter", function () {
+            this.style.transform = "translateY(-5px)";
+            this.style.boxShadow = "0 5px 15px rgba(0,0,0,0.1)";
+          });
+          card.addEventListener("mouseleave", function () {
+            this.style.transform = "";
+            this.style.boxShadow = "0 2px 5px rgba(0,0,0,0.1)";
+          });
+        });
+
+        // Add current date to the header
+        const options = {
+          weekday: "long",
+          year: "numeric",
+          month: "long",
+          day: "numeric",
+        };
+        const today = new Date().toLocaleDateString("en-US", options);
+        const header = document.querySelector("h1");
+        header.insertAdjacentHTML(
+          "afterend",
+          `<p style="text-align: center; color: #7f8c8d;">Today is ${today}</p>`
+        );
+      });
+    </script>
+  </body>
+</html>
